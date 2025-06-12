@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import otimizar
+from . import views
 
 urlpatterns = [
-    path('otimizar/', otimizar),
+    path('api/otimizar/', views.otimizar_view),
 ]
