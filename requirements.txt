@@ -1,4 +1,6 @@
 flask
+flask-cors
 sympy
 numpy
 matplotlib
+gunicorn
